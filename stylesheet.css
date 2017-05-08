@@ -1,0 +1,64 @@
+body {
+background-color: black;
+margin:0;
+padding:0;
+}
+
+.left{
+	width:100%;
+	margin-left:auto;
+	
+}
+
+#left{
+	background-color: black;
+	width: 12em;
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+.left:hover{
+	background-color: #404040;
+}
+
+.right{
+	padding:0;
+	margin:0;
+	position:fixed;
+	float:right;
+	width:83em;
+	height:100%
+	display:inline;
+}
+
+#title{
+position:fixed;
+float:right;
+right:1em;
+top:.5em;
+ background: rgb(54, 25, 25);
+ background: rgba(192,192,192,.3);
+ max-width:20em;
+padding-left:.5em;
+padding-right:.5em;
+border: .1em solid black;
+font-family: "	Courier New";
+}
+
+#review{
+	float:left;
+	margin:0;
+	position:relative;
+	left: 10em;
+	top:5em;
+	background: rgb(54, 25, 25);
+	background: rgba(192,192,192,.7);
+	max-width:14em;
+}
+
+#preload{
+	visibility:hidden;
+	position:fixed;
+}
+
